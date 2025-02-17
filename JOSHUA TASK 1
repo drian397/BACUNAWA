@@ -1,0 +1,14 @@
+class Car:
+    def __init__(self, brand, model, year):
+        self.brand = brand
+        self.model = model
+        self.year = year
+    def display_info(self):
+        print(f"Car Details:\nBrand: {self.brand}\nModel: {self.model}\nYear: {self.year}")
+# Create two car objects
+car1 = Car("SKODA", "SUV", 2016)
+car2 = Car("HYUNDAI", "SANTA FE", 2019)
+# Display their details
+car1.display_info()
+print()  # Print a newline for better readability
+car2.display_info()
