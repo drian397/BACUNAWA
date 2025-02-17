@@ -1,0 +1,15 @@
+class Student:
+    def __init__(self, name, age, course):
+        self.name = name
+        self.age = age
+        self.course = course
+    def introduce(self):
+        print(f"Hello, my name is {self.name}, I am {self.age} years old and I am studying {self.course}.")
+# Create three student objects
+student1 = Student("JOSHUA", 20, "COM SIC")
+student2 = Student("ROBERT", 19, "IT")
+student3 = Student("VENUS", 19, "CRIM")
+# Call their introduce() method
+student1.introduce()
+student2.introduce()
+student3.introduce()
